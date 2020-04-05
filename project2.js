@@ -3,13 +3,13 @@ let slider1;
 let slider2;
 let slider3; 
 let slider4;
-let colorPicker;
+//let colorPicker;
 
 function setup() {
   createCanvas(1920, 1080);
 
-  colorPicker = createColorPicker('#ed225d');
-  colorPicker.position(0, height + 5);
+  //colorPicker = createColorPicker('#ed225d');
+  //colorPicker.position(0, height + 5);
   mic = new p5.AudioIn();
   mic.start();
    {
