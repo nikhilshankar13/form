@@ -26,10 +26,10 @@ function draw() {
   let val1 = slider1.value();
   let val2 = slider2.value();
   let val3 = slider3.value();
-  //rotateX(frameCount * 0.01);
-  //rotateY(frameCount * 0.01);
-  //rotateZ(frameCount * 0.01)
-  torus(mouseY/2, mouseX/2, val1, val2);
+  rotateX(frameCount * 0.01);
+  rotateY(frameCount * 0.01);
+  rotateZ(frameCount * 0.01)
+  torus(mouseY/2, mouseX/2, vol*200, vol*200);
   torus(mouseY/10, mouseX/10, val1,val2 );
     torus(mouseY/80, mouseX/80, val1,val2 );
 }
